@@ -88,3 +88,28 @@ Mappa szerkezet:
 
 ![Adatbázis modell diagram-ja](images/mappak.jpg)
 
+- .tmp: itt tároljuk file-ban az adatokat
+- config: a waterline configurációját tároljuk itt
+- controllers: a végpontok controllerei
+- models: az adatbázik modelljét leíró file-ok és a teszt file-ok
+- node_modules: a különböző node modulok
+- public: bootswatch, bootstrap, jquery
+- views: az oldalak megjeneésért felelős hbs file-ok
+- images: a dokumentációban használt képek
+
+##4. Tesztelés
+
+Adatmodell tesztelés:
+
+A program adatszerkezetét CHAI-al volt tesztelve.
+
+Emellett funkcionális teszt történt.
+
+##5. Felhasználói dokumentáció
+
+Futtatási követelmények:
+- Egy javascript futtatására alkalmas böngésző
+- Operációs rendszeres tetszőleges
+
+
+A program használata a folyamat ismertetés alapján magától értetődik.
