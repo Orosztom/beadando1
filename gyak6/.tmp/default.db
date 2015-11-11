@@ -1,100 +1,29 @@
 {
   "data": {
-    "error": [],
     "todo": [
       {
-        "status": "pending",
-        "assignedTo": "Tomi",
-        "description": "Rendelj kaját!",
-        "date": "2015-11-08T13:03:05.028Z",
-        "createdAt": "2015-11-08T13:03:05.030Z",
-        "updatedAt": "2015-11-08T13:04:41.726Z",
-        "id": 18
+        "status": "new",
+        "assignedTo": "asdasd",
+        "description": "asdasdasd",
+        "date": "2015-11-11T15:41:48.846Z",
+        "createdAt": "2015-11-11T15:41:48.848Z",
+        "updatedAt": "2015-11-11T15:41:48.848Z",
+        "id": 2
       }
     ],
     "user": [
       {
-        "surname": "K",
-        "forename": "K",
-        "neptun": "SHSVOS",
-        "password": "almafa",
-        "avatar": "",
-        "role": "operator",
-        "createdAt": "2015-10-16T07:12:13.282Z",
-        "updatedAt": "2015-10-16T07:12:13.282Z",
-        "id": 1
-      },
-      {
-        "surname": "K",
-        "forename": "S",
-        "neptun": "AAAA",
-        "password": "$2a$10$gNRMti2HhU01HMDWqwsJEOaQYF8pY63KxF3qRkfS7i0OuvIoOrQfq",
-        "avatar": "",
-        "role": "riporter",
-        "createdAt": "2015-10-16T07:35:52.625Z",
-        "updatedAt": "2015-10-16T07:35:52.625Z",
-        "id": 2
-      },
-      {
-        "surname": "Orosz",
-        "forename": "Tamás",
+        "surname": "Tamás",
+        "forename": "Orosz",
         "username": "Tomi",
-        "password": "$2a$10$keSwWmYdAV/4jAh4dm4lJuPLsmnH5Df2fSVW7R1WM2SkR8xHy.JGO",
-        "createdAt": "2015-10-29T13:56:04.114Z",
-        "updatedAt": "2015-10-29T13:56:04.114Z",
-        "id": 3
-      },
-      {
-        "surname": "Orosz",
-        "forename": "József",
-        "username": "Józsi",
-        "password": "$2a$10$/NO5yDnLW5705d/JI2Fnpe8beRnWrcEU1fAU9.5RREJjYeoQN4N5q",
-        "createdAt": "2015-10-29T15:44:47.142Z",
-        "updatedAt": "2015-10-29T15:44:47.142Z",
-        "id": 4
+        "password": "$2a$10$8HEZUMxFFuOzURm9p5hrAe7wyrddbvL5DigshqFz3uNO5BhoWQrJK",
+        "createdAt": "2015-11-11T15:10:14.938Z",
+        "updatedAt": "2015-11-11T15:10:14.938Z",
+        "id": 1
       }
     ]
   },
   "schema": {
-    "error": {
-      "date": {
-        "type": "datetime"
-      },
-      "status": {
-        "type": "string",
-        "enum": [
-          "new",
-          "assigned",
-          "success",
-          "rejected",
-          "pending"
-        ]
-      },
-      "location": {
-        "type": "string"
-      },
-      "description": {
-        "type": "string"
-      },
-      "user": {
-        "type": "integer",
-        "model": "user",
-        "foreignKey": true,
-        "alias": "user"
-      },
-      "id": {
-        "type": "integer",
-        "autoIncrement": true,
-        "primaryKey": true,
-        "unique": true
-      },
-      "createdAt": {
-        "type": "datetime"
-      },
-      "updatedAt": {
-        "type": "datetime"
-      }
-    },
     "todo": {
       "date": {
         "type": "datetime"
@@ -159,12 +88,11 @@
     }
   },
   "counters": {
-    "error": {},
-    "user": {
-      "id": 4
-    },
     "todo": {
-      "id": 19
+      "id": 2
+    },
+    "user": {
+      "id": 1
     }
   }
 }
