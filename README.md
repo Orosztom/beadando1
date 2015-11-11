@@ -22,6 +22,6 @@ Szerep körök:
 A program user típusú adatokat tárol, nekik van jogosultságok megtekinteni és szerkeszteni, valamint törölni todo-kat. Amikor elkezdjük használni a programot, akkor a usernek lehetősége van meglévő adatokkal belélpni, vagy regisztrálni. Mind a kettő után a felhasználó eléri az összes todo-t. Ezek után lehetősége van szerkeszteni ezeket, törölni őket, vagy újakat létrehozni, vagy kilépni.  
 
 Használati eset diagram:
-![eset diagram](images/esetdiagram.jpg)
+![eset diagram](images/esetdiagram2.jpg)
 
 
