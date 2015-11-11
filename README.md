@@ -51,12 +51,29 @@ Végpontok:
 Oldal vázlatok:
 
 Első oldal:
+
 ![első oldal](images/1.jpg)
+
 Bejelentkező oldal:
+
 ![login oldal](images/2.jpg)
+
 Regisztráció oldal:
+
 ![regisztrációs oldal](images/6.jpg)
+
 Listázó oldal:
+
 ![listázó oldal](images/3.jpg)
 
+Szerkesztő oldal:
 
+![szerkesztési oldal](images/4.jpg)
+
+Új TODO felvétele oldal:
+
+![új todo oldal](images/5.jpg)
+
+**Adatmodell**
+
+![Adatbázis modell diagram-ja](images/adatbazis_modell.png)
