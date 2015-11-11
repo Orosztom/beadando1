@@ -86,5 +86,5 @@ A fejlesztés a cloud 9 felületén zajlott.
 
 Mappa szerkezet:
 
-![Adatbázis modell diagram-ja](images/mappak.png)
+![Adatbázis modell diagram-ja](images/mappak.jpg)
 
