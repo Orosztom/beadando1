@@ -77,3 +77,14 @@ Szerkesztő oldal:
 **Adatmodell**
 
 ![Adatbázis modell diagram-ja](images/adatbazis_modell.png)
+
+##3. Implementálás
+
+Fejlesztői környezet:
+
+A fejlesztés a cloud 9 felületén zajlott.
+
+Mappa szerkezet:
+
+![Adatbázis modell diagram-ja](images/mappak.png)
+
